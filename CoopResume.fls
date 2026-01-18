@@ -3,8 +3,8 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /media/maya/2025_HDD/! University of Victoria/Y3/Y3_Coop_App/Resume/2025_05_19_CoopResume.tex
-OUTPUT 2025_05_19_CoopResume.log
+INPUT /media/maya/2025_HDD/! University of Victoria/Y3/Y3_Coop_App/Resume/CoopResume.tex
+OUTPUT CoopResume.log
 INPUT ./res.cls
 INPUT res.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -81,10 +81,10 @@ INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./2025_05_19_CoopResume.aux
-INPUT ./2025_05_19_CoopResume.aux
-INPUT 2025_05_19_CoopResume.aux
-OUTPUT 2025_05_19_CoopResume.pdf
+INPUT ./CoopResume.aux
+INPUT ./CoopResume.aux
+INPUT CoopResume.aux
+OUTPUT CoopResume.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx10.tfm

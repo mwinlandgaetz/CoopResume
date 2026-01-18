@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.18)  18 JAN 2026 13:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.18)  18 JAN 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/media/maya/2025_HDD/! University of Victoria/Y3/Y3_Coop_App/Resume/2025_05_19_CoopResume.tex"
-(/media/maya/2025_HDD/! University of Victoria/Y3/Y3_Coop_App/Resume/2025_05_19_CoopResume.tex
+**"/media/maya/2025_HDD/! University of Victoria/Y3/Y3_Coop_App/Resume/CoopResume.tex"
+(/media/maya/2025_HDD/! University of Victoria/Y3/Y3_Coop_App/Resume/CoopResume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./res.cls
@@ -194,7 +194,7 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box52
-) (./2025_05_19_CoopResume.aux)
+) (./CoopResume.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
@@ -248,14 +248,14 @@ L3 programming layer <2025-01-18>
  ) 
 Here is how much of TeX's memory you used:
  7820 strings out of 475178
- 122902 string characters out of 5766539
- 521709 words of memory out of 5000000
+ 122770 string characters out of 5766539
+ 521687 words of memory out of 5000000
  30763 multiletter control sequences out of 15000+600000
  584043 words of font info for 45 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 75i,5n,79p,452b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,441b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro10.pfb>
-Output written on 2025_05_19_CoopResume.pdf (2 pages, 149834 bytes).
+Output written on CoopResume.pdf (2 pages, 149834 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
