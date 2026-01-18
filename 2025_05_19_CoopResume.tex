@@ -1,0 +1,109 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{hyperref,lmodern}
+\hyphenation{Altium Designer}
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+
+\begin{document}
+
+\name{Maya Winland-Gaetz}
+\address{203-1870 McKenzie Avenue, Victoria BC V8N 4X3}
+\address{\href{mailto:mwinlandgaetz@gmail.com}{mwinlandgaetz@gmail.com}\\
+(289) 689-0427}
+
+\begin{resume}
+\section{Education}
+    {\textbf{Bachelor of Engineering (BEng),}} In Progress, GPA 8.61/9 \hfill Expected Sept 2028\\
+    Electrical Engineering\\
+    \textbf{University of Victoria}, Victoria, BC, Canada \\\\
+    %\begin{itemize} \itemsep -2pt
+        %\item Physics Honours thesis in simulating nonlinear interactions between single 
+        %photons in optical cavities
+        %\item Computer Science Honours thesis in creating generative adversarial networks 
+        %to scale low-resolution video using temporal sampling
+    %\end{itemize}
+    \textbf{PhD Student,} (Incomplete), GPA 11.0/12   \hfill September 2013 - May 2019\\
+    \textbf{McMaster University}, Hamilton, ON, Canada \hfill 
+
+    {\textbf{Bachelor of Science (BSc),}} GPA 3.57/4 \hfill September 2008 - April 2013\\
+    Specialist Environmental Toxicology, Maj. Ecology \& Evolutionary Biology\\
+    \textbf{University of Toronto}, Toronto, ON, Canada \\\\
+
+
+\section{Competencies}
+    \textbf{Technical}
+    \begin{itemize} \itemsep -2pt
+        \item Drafted, simulated, and am currently in fabrication for several electronics projects using \textbf{KiCAD}, \textbf{LTSpice}, and \textbf{Altium Designer}.
+        \item Developed several applications in \textbf{\CC} for personal use.
+        \item 90WPM typing speed with a keen eye for typographical and grammatical errors, using both \textbf{Microsoft Office} and \textbf{LaTeX}.
+        \item Prepared and analyzed sensitive geochemical samples in a laboratory environment, implementing state-of-the-art instruments while observing rigorous safety protocols.
+    \end{itemize}
+    \textbf{Core}
+    \begin{itemize} \itemsep -2pt
+        \item Maintained efficiency while under pressure during the annual Starbucks Holiday Launch, providing a high standard of service for eager early-morning customers.
+        \item Communicated clearly and fluently in presentations and public speaking, earning an award at an academic conference for a 15 minute talk on geochemical sampler design.
+    \end{itemize}
+
+\section{Projects} 
+\textbf{First Year Engineering Design Project} \hfill January 2024 - April 2024
+\begin{itemize} \itemsep -2pt
+    \item Conceived and constructed a physical prototype and associated webapp for a smart shower heater as part of a class project. The product could sense the proximity of a user and automatically adjust the water temperature using a hypothetical inline water heater to a desired temperature, configurable through a WiFi-enabled app.
+    \item Went beyond the expectations of the course by building transistor amplifiers to facilitate proximity detection with inexpensive IR sensors, and improved the TA-provided netcode to ensure a stable connection.
+    \item Worked in a group of 3, wherein the circuit design and netcode improvements were my chief responsibilities.\\
+    \textit{Demonstration video available upon request. }
+\end{itemize}
+\textbf{University of Victoria Satellite Design Club} \hfill January 2024 - Present
+\begin{itemize} \itemsep -2pt
+    \item Researched satellite radiocommunication design principles and protocols to guide the development of the telemetry systems for future club projects.
+    \item Currently responsible for the development of the Telemetry, Tracking \& Command (TT\&C) boards for several ongoing projects, including frequency selection, component research, schematic capture, and acquisition of the required certifications to legally operate in amateur radio frequencies.
+    \item Designed, compiled BOMs, and ordered PCBs for evaluation boards using Altium Designer, through commerically-available fabrication workshops.
+    \item Hand-soldered 7mm QFN and 0603/0402-sized components for the board using a hot air rework station and manual soldering iron to assemble the first iteration of transceiver evaluation boards for testing.
+\end{itemize}
+\textbf{Personal} \hfill April 2020-Present
+\begin{itemize} \itemsep -2pt
+    \item Currently building a trigger signal sequencer as part of a larger project to construct a music synthesizer, utilizing RP2040 hardware timers and digital logic ICs to output a 4-channel beat structure with a custom LED matrix.
+    %\item Researched components for and prototyped auxiliary modules, including a headphone output amplifier and switch-mode power supply for the overall project.
+    \item Programmed and assembled a climate and light level sensor for personal use, incorporating an AtMega328P microcontroller and a scrolling 16x8 LED display.
+    \item Programmed an app in C++ to view a directory of life drawing references at regular intervals, to aid in life drawing study during the pandemic.
+    %\item Implemented a ray tracer/ray marcher algorithm in C++ using the SFML graphics library, rendering simple 3-dimensional objects to a static output.
+\end{itemize}
+
+\section{Professional Experience}
+    \textbf{Barista} \hfill April 2019 - December 2021 \\
+    \textbf{Starbucks}, Hamilton, ON, Canada/Saanich, BC, Canada
+    \begin{itemize}  \itemsep -2pt
+        \item Demonstrated clear communication and professional affect in connecting with customers amidst an extremely busy work environment.
+        \item Prepared food and beverages to precise standards of quality through fine attention to detail, prompting glowing remarks on cappuccino quality in particular on several occasions from grateful patrons.
+        \item Achieved role of Certified Barista Trainer through demonstrating a keen interest in teaching others, and modelling workplace standards; responsibilities included structured and hands-on training.
+    \end{itemize} 
+    \textbf{Teaching Assistant} \hfill September 2013 - April 2018 \\
+    \textbf{McMaster University}, Hamilton, ON, Canada
+    \begin{itemize}  \itemsep -2pt
+        \item Planned and conducted lab sessions and tutorials, using previous experience and WHMIS training in chemistry lab safety and analytical protocols, to minimize accidents, control spills and ensure a safe learning environment.
+        \item Graded and annotated student papers and projects on 7-day deadlines, using rigorous organization and uniform standards, to ensure course leaders could maintain a strict schedule.
+    \end{itemize} 
+\section{Awards and Certifications}
+\begin{itemize} \itemsep -2pt
+    \item Amateur Radio Operator Certification\hfill December 2024\\ Advanced, Basic with Honours (VA7MWX)
+    \item Best Student Oral Presentation, worth \$750  {\sl (Sudbury Mining and Environment Int'l Conference)} \hfill June 2015
+    \item WHMIS \hfill Yearly Recertification 2008-2022
+    \begin{itemize} \itemsep -2pt
+        \item Other safety certifications as needed (Hazardous materials disposal and compressed gases)
+    \end{itemize}
+\end{itemize}
+\section{Other Interests}
+\begin{itemize} \itemsep -2pt
+    \item Bicycling, with the goal of getting from the University of Victoria to Leechtown and back over a two day trip.
+    \item Classical piano, playing Beethoven’s later Sonatas in particular.
+\end{itemize}
+\textbf{References Available Upon Request}
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
